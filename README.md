@@ -15,7 +15,7 @@ email = Email(
     'recipient',
     'subject',
     'this is an automated email',
-    Attachment('attachment.txt')
+    [Attachment('attachment.txt')]
 )
 
 def on_progress(status: SendStatus):
