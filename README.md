@@ -33,4 +33,4 @@ def on_progress(status: SendStatus):
 email.send(on_progress)
 ```
 
-If you are using `SMTPServers.GMAIL` with 2FA is enabled then use an app password instead of the actual password: https://security.google.com/settings/security/apppasswords 
+If you are using `SMTPServers.GMAIL` with 2FA enabled then use an app password instead of the actual password: https://security.google.com/settings/security/apppasswords 
